@@ -1,0 +1,20 @@
+@font-face {
+  font-family: NeueMontreal;
+  src: url("./assets/fonts/NeueMontreal-Regular.woff2");
+}
+@font-face {
+  font-family: FoundersGrotesk;
+  src: url("./assets/fonts/FoundersGrotesk-Semibold.woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.neue {
+  font-family: NeueMontreal, Arial, Helvetica, sans-serif;
+}
+.founders {
+  font-family: FoundersGrotesk, Arial, Helvetica, sans-serif;
+}
