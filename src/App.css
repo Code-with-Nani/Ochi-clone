@@ -18,3 +18,8 @@
 .founders {
   font-family: FoundersGrotesk, Arial, Helvetica, sans-serif;
 }
+
+.bgImg{
+  background-image: url(./assets/images/ochi.jpg);
+  background-size: cover;
+}
