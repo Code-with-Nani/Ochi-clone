@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import img from "../assets/images/play.jpg";
 
 const Eyes = () => {
-  const [rotate, setRotate] = useState(0);
+  const [rotate, setRotate] = useState(75);
   useEffect(() => {
     window.addEventListener("mousemove", (e) => {
       let mouseX = e.clientX;
@@ -17,12 +17,13 @@ const Eyes = () => {
 
   return (
     <div
-      className="w-screen lg:h-screen overflow-hidden bg-cover mb-10 h-[430px] relative cursor-pointer"
+      className="w-screen lg:h-screen overflow-hidden bg-cover bg-center h-[430px] relative cursor-pointer"
       style={{ backgroundImage: `url(${img})` }}
     >
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex gap-10">
-        <div className="w-[200px] h-[200px] rounded-full bg-[#F4F4F4] flex justify-center items-center">
-          <div className="w-2/3 h-2/3 rounded-full bg-text relative">
+        <div className="lg:w-[200px] w-[150px] h-[150px] lg:h-[200px] rounded-full bg-[#F4F4F4] flex justify-center items-center">
+          <div className="w-2/3 h-2/3 rounded-full bg-text relative text-[#F4F4F4] flex justify-center items-center">
+            <h4 className="neue text-[18px] uppercase">Play</h4>
             <div
               className="line w-full h-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
               style={{
@@ -33,8 +34,9 @@ const Eyes = () => {
             </div>
           </div>
         </div>
-        <div className="w-[200px] h-[200px] rounded-full bg-[#F4F4F4] flex justify-center items-center">
-          <div className="w-2/3 h-2/3 rounded-full bg-text relative">
+        <div className="lg:w-[200px] w-[150px] h-[150px] lg:h-[200px] rounded-full bg-[#F4F4F4] flex justify-center items-center">
+          <div className="w-2/3 h-2/3 rounded-full bg-text relative flex text-[#F4F4F4] justify-center items-center">
+          <h4 className="neue text-[18px] uppercase">Play</h4>
             <div
               className="line w-full h-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
               style={{

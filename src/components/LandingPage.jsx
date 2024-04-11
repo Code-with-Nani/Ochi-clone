@@ -12,7 +12,9 @@ const LandingPage = () => {
               className="masker founders uppercase lg:text-[144px] text-[64px] lg:leading-[108px] leading-[48px] font-[600] overflow-hidden"
             >
               <div className="w-fit flex items-center lg:items-start">
-                {index === 1 && <div className="lg:w-[136px] w-[75px] lg:h-[90px] h-[55px]  translate-y-2 lg:translate-y-4 bgImg mr-2 rounded-md"></div>}
+                {index === 1 && (
+                  <div className="lg:w-[136px] w-[75px] lg:h-[90px] h-[55px]  translate-y-2 lg:translate-y-4 bgImg mr-2 rounded-md"></div>
+                )}
                 <h1>{item}</h1>
               </div>
             </div>
