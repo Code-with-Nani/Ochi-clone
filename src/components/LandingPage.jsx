@@ -1,5 +1,6 @@
 import React from "react";
 import { FaArrowUpLong } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 const LandingPage = () => {
   return (
@@ -13,7 +14,28 @@ const LandingPage = () => {
             >
               <div className="w-fit flex items-center lg:items-start">
                 {index === 1 && (
-                  <div className="lg:w-[136px] w-[75px] lg:h-[90px] h-[55px]  translate-y-2 lg:translate-y-4 bgImg mr-2 rounded-md"></div>
+                  <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: "65px" }}
+                    transition={{
+                      ease: [0.76, 0, 0.24, 1],
+                      duration: 1,
+                      delay: 0.5,
+                    }}
+                    className=" w-[65px] lg:hidden h-[50px]  mt-1 bgImg mr-2 rounded-md overflow-hidden"
+                  ></motion.div>
+                )}
+                {index === 1 && (
+                  <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: "136px" }}
+                    transition={{
+                      ease: [0.76, 0, 0.24, 1],
+                      duration: 1,
+                      delay: 0.5,
+                    }}
+                    className="w-[136px] h-[90px] hidden lg:block translate-y-4 bgImg mr-2 rounded-md"
+                  ></motion.div>
                 )}
                 <h1>{item}</h1>
               </div>
