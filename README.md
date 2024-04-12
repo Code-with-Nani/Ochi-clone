@@ -14,7 +14,7 @@ Currently, two official plugins are available:
 
 
 
-import React, { useState } from "react";
+<!-- import React, { useState } from "react";
 import card1 from "../assets/images/card1.png";
 import card2 from "../assets/images/card2.jpg";
 import { motion } from "framer-motion";
@@ -68,4 +68,4 @@ const Featured = () => {
   );
 };
 
-export default Featured;
+export default Featured; -->
