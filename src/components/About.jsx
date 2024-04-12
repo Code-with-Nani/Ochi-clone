@@ -3,7 +3,7 @@ import img from "../assets/images/about.jpg"
 
 const About = () => {
   return (
-    <div className="bg-bg3 pt-20 pb-6 rounded-2xl text-text">
+    <div data-scroll data-scroll-speed="-0.09" className="bg-bg3 pt-20 pb-6 rounded-2xl text-text">
       <p className="neue text-[31px] lg:text-[58px] leading-[31px] lg:leading-[58px] pl-6 lg:pl-14 pr-4 lg:pr-36 ">
         Ochi is a strategic partner for fast-growing tech businesses that need
         to raise funds, sell products, explain complex ideas, and hire great

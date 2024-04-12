@@ -3,8 +3,8 @@ import img from "../assets/images/logo.svg"
 
 const Footer = () => {
   return (
-    <div className="w-screen lg:h-screen h-[100vh] bg-bg lg:px-14 px-6 pt-20 lg:pb-10 flex flex-col lg:flex-row">
-      <div className="lg:w-1/2 lg:h-full flex flex-col justify-between">
+    <div data-scroll data-scroll-section data-scroll-speed="-0.1" className="w-screen text-text lg:h-screen h-[100vh] bg-bg lg:px-14 px-6 pt-20 lg:pb-10 flex flex-col lg:flex-row">
+      <div className="lg:w-1/2 lg:h-full flex flex-col justify-between ">
         <div className="heading">
         <h2 className="founders uppercase lg:text-[144px] text-[64px] lg:leading-[108px] leading-[48px] font-[600]">
           EYE-

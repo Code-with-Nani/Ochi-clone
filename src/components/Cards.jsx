@@ -11,7 +11,7 @@ const Cards = () => {
   ];
 
   return (
-    <div className="min-h-screen w-screen px-6 lg:px-14 py-20">
+    <div  className="min-h-screen lg:h-[50vh] w-screen px-6 lg:px-14 py-20">
       <div className="flex flex-col lg:flex-row gap-10">
         {arr.map((item, index) => (
           <div
